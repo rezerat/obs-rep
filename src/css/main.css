@@ -4,7 +4,7 @@
     border-radius: 30px;
     background: black;
     display: flex;
-    max-width: 460px;
+    max-width: 800px;
 
 }
 
@@ -12,7 +12,7 @@
 .dashboard-nav {
     flex-shrink: 0;
     width: 130px;
-    height: 600px;
+    height: 900px;
     background: blue;
 }
 
