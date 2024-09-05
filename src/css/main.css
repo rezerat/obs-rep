@@ -11,7 +11,6 @@ img {
     max-width: 50%;
 }
 
-
 /* Main info */
 .dashboard {
     border: 2px;
@@ -35,7 +34,7 @@ img {
 
 .dashboard-body {
     margin: 5px 5px 8px 3px;
-    padding: 30px 30px 5px 30px;
+    padding: 20px 20px 5px 20px;
     flex-grow: 1;
     background: rgb(255, 255, 255);
     border-radius: 30px;
@@ -170,11 +169,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .input-area {
     text-align: center;
-    padding-left: 2px;
     height: 30px;
     font-size: 25px;
     margin-top: 300px;
-    flex-grow: 1;
+    width: 100%;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
@@ -186,19 +184,22 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
+    width: 100%;
+    font-size: 30px;
 }
 
 .time-bet {
     background-color: transparent;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 25px;
     text-align: center;
-    padding-left: 12px;
-    flex-grow: 1;
     color: black;
     border: 0;
     border-bottom: 2px solid;
+    width: 100%;
+
 }
+
 
 
 .call-btn {
