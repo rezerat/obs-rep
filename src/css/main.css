@@ -8,7 +8,7 @@ body {
 }
 
 img {
-    max-width: 50%;
+    max-width: 80%;
 }
 
 /* Main info */
@@ -17,14 +17,14 @@ img {
     border-radius: 30px;
     background: black;
     display: flex;
-    max-width: 450px;
+    max-width: 400px;
 
 }
 
 /* Nabigation */
 .dashboard-nav {
     flex-shrink: 0;
-    width: 100px;
+    width: 70px;
     height: 600px;
     background: rgb(0, 0, 0);
     padding-top: 30px;
