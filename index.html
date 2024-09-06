@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    
-    
+
+
+
 </head>
 <body>
     <header class="container-header">
@@ -21,7 +22,7 @@
             <div class="nav">
                 <div class="nav-logo">
                     <div class="logo">
-                        <a href="#">
+                        <a href="/obs-rep/index.html">
                             <img src="/obs-rep/src/img/wallet-svgrepo-com.svg" alt="Logo" id="logo">
                         </a>
                     </div>
@@ -74,13 +75,17 @@
                     <input name="time" placeholder="Time" type="number" class="time-bet" min="3">
                 </div>
 
+                <div class="persent-area">
+                    <input name="persent" placeholder="%" type="number" class="persent" value="">
+                </div>
+
                 <div class="bet-area">
 
                     <div class="call-bet">
-                        <button name="call-btn" class="call-btn">
-                            <span class="call">Callы</span>
+                        <button name="call-btn" class="call-btn" id="call-btn">
+                            <span class="call">Call</span>
                             <div class="arrow">
-                                <a href=""><i class="fa-solid fa-arrow-up"></i></a>
+                                <i class="fa-solid fa-arrow-up"></i>
                             </div>
                         </button>
                         
@@ -89,10 +94,10 @@
 
                     
                     <div class="put-bet">
-                        <button name="put-btn" class="put-btn">
+                        <button id="put-btn" name="put-btn" class="put-btn">
                             <span class="call">Put</span>
                             <div class="arrow">
-                                <a href=""><i class="fa-solid fa-arrow-down"></i></a>
+                                <i class="fa-solid fa-arrow-down"></i>
                             </div>
                         </button>
                     </div>
@@ -110,6 +115,6 @@
         </div>
     </div>
 
-
+    <script src="./test.js"></script>
 </body>
 </html>
