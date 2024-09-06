@@ -1,6 +1,6 @@
-@import "trans.css";
-@import "profile.css";
-@import "dep.css";
+@import "/obs-rep/src/css/trans.css";
+@import "/obs-rep/src/css/profile.css";
+@import "/obs-rep/src/css/dep.css";
 
 body {
     margin: 0;
