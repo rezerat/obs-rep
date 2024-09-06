@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 10px;
     background-color: greenyellow;
     justify-content: space-between;
-    width: 150px;
+    width: 125px;
     
 }
 
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 10px;
     justify-content: space-between;
     display: flex;
-    width: 150px;
+    width: 125px;
     color: white;
 }
 
