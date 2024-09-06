@@ -15,7 +15,7 @@ img {
     border-radius: 30px;
     background: black;
     display: flex;
-    width: 400px;
+    width: 390px;
     position: fixed;
     max-height: 700px;
     
@@ -26,7 +26,7 @@ img {
 .dashboard-nav {
     flex-shrink: 0;
     width: 70px;
-    height: 600px;
+    height: 550px;
     background: rgb(0, 0, 0);
     padding-top: 30px;
     padding-bottom: 50px;
@@ -35,7 +35,7 @@ img {
 
 .dashboard-body {
     margin: 5px 5px 8px 3px;
-    padding: 20px 20px 5px 20px;
+    padding: 12px 12px 5px 12px;
     background: rgb(255, 255, 255);
     border-radius: 30px;
     flex-grow: 1;
