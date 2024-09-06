@@ -15,7 +15,7 @@ img {
     border-radius: 30px;
     background: black;
     display: flex;
-    width: 390px;
+    width: 370px;
     position: fixed;
     max-height: 700px;
     
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6, p {
 .tokens-selection::before {
     color: #26941c;
     font-weight: bold;
-    content: "$$$";
+    content: "$";
     top: 8px;
     font-size: 25px;
     position: absolute;
