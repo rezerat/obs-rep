@@ -293,7 +293,6 @@ input::-webkit-inner-spin-button {
     display: block;
     position: absolute;
     top: 225px;
-    right: 320px;
     font-size: 12px;
 }
 
@@ -301,7 +300,6 @@ input::-webkit-inner-spin-button {
     display: block;
     position: absolute;
     top: 367px;
-    right: 320px;
     font-size: 12px;
 }
 
